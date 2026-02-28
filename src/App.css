@@ -1,0 +1,136 @@
+.products {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+}
+
+.product-card {
+
+  padding: 2%;
+
+  flex-grow: 1;
+
+  flex-basis: 16%;
+
+}
+
+body {
+
+  background-color: #f6f6f6;
+
+}
+
+
+
+.cont {
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.back {
+
+  background-color: #f4eddd; 
+
+  padding: 20px;
+
+  margin-left: 20px;
+
+  margin-right: 20px;
+
+font-family: 'Encode Sans Semi Expanded', sans-serif;
+
+
+
+}
+
+.change {
+
+  background-color: black;
+
+  color: white;
+
+  padding: 10px;
+
+  border: none;
+
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+
+}
+
+h3, h4 {
+
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+
+}
+
+button {
+
+  margin: 10px;
+
+}
+nav {
+   background:  #f4eddd; 
+   display:flex;
+   justify-content: center;
+   padding: 15px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.link{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.page {
+  min-height: calc(100vh - 70px); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+   font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.page-box {
+  max-width: 720px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 32px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.page-box h1 {
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.page-box p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.page-about {
+  background: linear-gradient(180deg, #f6f1e8, #ffffff);
+}
+
+.page-contact {
+  background: linear-gradient(180deg, #e9f1ff, #ffffff);
+}
+
+.contact-hours {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+
+
+
